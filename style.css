@@ -1,0 +1,31 @@
+html, body {
+    padding: 15px 0 0 15px;
+    margin: 15px 0 0 15px;
+}
+
+
+#game{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+}
+
+#cross{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.enemy{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    
+    transform: translate(-50%, -50%)
+}
