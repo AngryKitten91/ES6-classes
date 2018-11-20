@@ -40,7 +40,7 @@ class Game {
                 let enemy = new BigEnemy;
                 this.enemies.push(enemy);
                 this.gameContainer.appendChild(enemy.enemyElement);
-            } else if(this.turn % 5 === 0) {
+            } else if (this.turn % 5 === 0) {
                 let enemy = new SmallEnemy;
                 this.enemies.push(enemy);
                 this.gameContainer.appendChild(enemy.enemyElement);
@@ -53,8 +53,6 @@ class Game {
     }
 
 }
-
-
 class Cross {
     constructor(x = 150, y = 150) {
         this.crossElement = document.getElementById('cross');
@@ -68,8 +66,6 @@ class Cross {
         this.x = x;
         this.y = y;
     }
-
-
 }
 
 class Enemy {
