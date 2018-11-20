@@ -24,8 +24,26 @@ html, body {
 .enemy{
     width: 10px;
     height: 10px;
-    background-color: red;
+    background-color: pink;
     position: absolute;
-    
+    pointer-events: none;
     transform: translate(-50%, -50%)
+}
+
+.bigEnemy{
+    width: 20px;
+    height: 20px;
+    background-color: violet;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%)     
+}
+
+.smallEnemy{
+    width: 5px;
+    height: 5px;
+    background-color: yellow;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%)     
 }
